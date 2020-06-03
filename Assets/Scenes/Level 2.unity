@@ -1383,7 +1383,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 716764309}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 18.31488, y: -15.521514, z: -5.6913586}
+  m_LocalPosition: {x: 18.31488, y: -15.521514, z: -16.3}
   m_LocalScale: {x: 1.713729, y: 1.713729, z: 1.713729}
   m_Children: []
   m_Father: {fileID: 244612051}
@@ -2679,7 +2679,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1221121239}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 80.41488, y: -15.521514, z: -5.6913586}
+  m_LocalPosition: {x: 58.15, y: -4.87, z: -21.6}
   m_LocalScale: {x: 1.713729, y: 1.713729, z: 1.713729}
   m_Children: []
   m_Father: {fileID: 244612051}
@@ -3320,7 +3320,7 @@ PrefabInstance:
     - target: {fileID: 1810132052375236502, guid: d9042f3a9db53814da4427f201f10580,
         type: 3}
       propertyPath: m_Intensity
-      value: 1.43
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 1810132052375236503, guid: d9042f3a9db53814da4427f201f10580,
         type: 3}
@@ -3615,6 +3615,7 @@ GameObject:
   - component: {fileID: 1972844495}
   - component: {fileID: 1972844494}
   - component: {fileID: 1972844493}
+  - component: {fileID: 1972844496}
   m_Layer: 0
   m_Name: Obstacle 3 (8)
   m_TagString: Untagged
@@ -3685,6 +3686,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1972844492}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1972844496
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1972844492}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28c130f3dab53a147b84a4737e3d333c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movementVector: {x: 10, y: -5, z: 10}
+  period: 2
+  movementFactor: 0
 --- !u!1 &1979966610
 GameObject:
   m_ObjectHideFlags: 0
@@ -3781,6 +3797,7 @@ GameObject:
   - component: {fileID: 2044372594}
   - component: {fileID: 2044372593}
   - component: {fileID: 2044372592}
+  - component: {fileID: 2044372595}
   m_Layer: 0
   m_Name: Obstacle 3
   m_TagString: Untagged
@@ -3851,6 +3868,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2044372591}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2044372595
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2044372591}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28c130f3dab53a147b84a4737e3d333c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movementVector: {x: 5, y: 10, z: 10}
+  period: 2
+  movementFactor: 0
 --- !u!1 &2050523821
 GameObject:
   m_ObjectHideFlags: 0
